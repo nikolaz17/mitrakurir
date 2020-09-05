@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private WebView webView;
     private Toolbar toolbar;
     private Context context;
-    private String URL = "http://simpkb.banyumaskab.go.id/loginandroid";
+    private String URL = "http://103.105.190.34/login/dinsosandro";
     private String TAG = "MainActivity :: ";
 
     @Override
@@ -132,8 +132,9 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebChromeClient(new CustomWebChromeClient());
 
         //TODO : MODIFIKASI USER AGENT FOR WEB PHP
-        webView.getSettings().setUserAgentString("simpkb.android");
+        webView.getSettings().setUserAgentString("kominfo.android");
     }
+
 
     protected class CustomWebChromeClient extends WebChromeClient {
 

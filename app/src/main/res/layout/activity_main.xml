@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -47,7 +48,7 @@
                         android:layout_width="210dp"
                         android:layout_height="54dp"
                         android:layout_marginBottom="30dp"
-                        android:background="@drawable/tulisan_kecil" />
+                        android:background="@drawable/tulisan_mitra" />
 
                     <ImageView
                         android:layout_width="60dp"
