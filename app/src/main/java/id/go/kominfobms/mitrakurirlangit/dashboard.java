@@ -95,7 +95,7 @@ public class dashboard extends AppCompatActivity {
         btnDialogClose.setOnClickListener(v -> dialogKontak.dismiss());
 
         Picasso.get()
-                .load("http://simpkb.banyumaskab.go.id/themes/booking/asset/img/dinashub1.png")
+                .load("http://gendisdesa.banyumaskab.go.id/template/user2/images/alamat_mitra.png")
                 .placeholder(R.drawable.icon_login)
                 .into(imageDialog);
 
